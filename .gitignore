@@ -1,0 +1,25 @@
+# Generated files and local development environment
+.git/
+.settings/
+build/
+target/
+bin/
+out/
+Servers/
+*.class
+*.war
+*.log
+.DS_Store
+Thumbs.db
+
+# Secrets / local deployment settings
+**/config.properties
+**/context.xml
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
